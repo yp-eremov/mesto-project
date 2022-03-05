@@ -6,4 +6,4 @@
 ### Технологии:
 HTML+CSS
 
-### GitHub Pages: 
+### GitHub Pages: https://yp-eremov.github.io/mesto-project/
