@@ -3,6 +3,7 @@
 
 @import "../blocks/root/root.css";
 @import "../blocks/popup/popup.css";
+@import "../blocks/popup/__conatiner/popup__container.css";
 @import "../blocks/popup/__form/popup__form.css";
 @import "../blocks/popup/_opened/popup_opened.css";
 @import "../blocks/popup/__close/popup__close.css";
@@ -18,10 +19,8 @@
 @import "../blocks/profile/__avatar/profile__avatar.css";
 @import "../blocks/profile/__details/profile__details.css";
 @import "../blocks/profile/__title/profile__title.css";
-@import "../blocks/profile/__edit/profile__edit.css";
 @import "../blocks/profile/__edit-button/profile__edit-button.css";
 @import "../blocks/profile/__description/profile__description.css";
-@import "../blocks/profile/__button/profile__button.css";
 @import "../blocks/profile/__plus-button/profile__plus-button.css";
 @import "../blocks/elements/elements.css";
 @import "../blocks/element/element.css";

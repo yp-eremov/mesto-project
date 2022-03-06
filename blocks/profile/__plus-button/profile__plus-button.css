@@ -8,9 +8,11 @@
     box-sizing: border-box;
     border-radius: 2px;
 
+    align-self: center;
     background-image: url("../../../images/add-icon.svg");
     background-position: center;
     background-repeat: no-repeat;
+    cursor: pointer;
 }
 
 .profile__plus-button:hover {
