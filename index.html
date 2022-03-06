@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Mesto</title>
-        <link href="./styles/index.css" rel="stylesheet">
+        <link href="pages/index.css" rel="stylesheet">
     </head>
     <body class="root">
         <div class="page">
@@ -16,52 +16,52 @@
                     <img src="./images/avatar.jpg" alt="Аватар пользователя" class="profile__avatar">
                     <div class="profile__details">
                         <h1 class="profile__title">Жак-Ив Кусто</h1>
-                        <button type="button" class="profile__edit-button"></button>
+                        <button aria-label="Редактировать профиль" type="button" class="profile__edit-button"></button>
                         <p class="profile__description">Исследователь океана</p>
                     </div>
-                    <button type=button" class="profile__plus-button"></button>
+                    <button aria-label="Добавить запись" type=button" class="profile__plus-button"></button>
                 </section>
                 <section class="elements">
                     <article class="element">
                         <img src="./images/kirill-pershin-1088404-unsplash.jpg" alt="Старое здание" class="element__image">
                         <div class="element__info">
                             <h2 class="element__description">Карачаевск</h2>
-                            <button type="button" class="element__heart"></button>
+                            <button aria-label="Отметить сердечком" type="button" class="element__heart"></button>
                         </div>
                     </article>
                     <article class="element">
                         <img src="./images/kirill-pershin-1404681-unsplash.png" alt="Закат" class="element__image">
                         <div class="element__info">
                             <h2 class="element__description">Гора Эльбрус</h2>
-                            <button type="button" class="element__heart element__heart_active"></button>
+                            <button aria-label="Убрать отметку сердечко" type="button" class="element__heart element__heart_active"></button>
                         </div>
                     </article>
                     <article class="element">
                         <img src="./images/kirill-pershin-1556355-unsplash.png" alt="Вид на гору" class="element__image">
                         <div class="element__info">
                             <h2 class="element__description">Домбай</h2>
-                            <button type="button" class="element__heart"></button>
+                            <button aria-label="Отметить сердечком" type="button" class="element__heart"></button>
                         </div>
                     </article>
                     <article class="element">
                         <img src="./images/kirill-pershin-1404681-unsplash.png" alt="Закат" class="element__image">
                         <div class="element__info">
                             <h2 class="element__description">Гора Эльбрус</h2>
-                            <button type="button" class="element__heart"></button>
+                            <button aria-label="Отметить сердечком" type="button" class="element__heart"></button>
                         </div>
                     </article>
                     <article class="element">
                         <img src="./images/kirill-pershin-1556355-unsplash.png" alt="Вид на гору" class="element__image">
                         <div class="element__info">
                             <h2 class="element__description">Домбай</h2>
-                            <button type="button" class="element__heart"></button>
+                            <button aria-label="Отметить сердечком" type="button" class="element__heart"></button>
                         </div>
                     </article>
                     <article class="element">
                         <img src="./images/kirill-pershin-1088404-unsplash.jpg" alt="Старое здание" class="element__image">
                         <div class="element__info">
                             <h2 class="element__description">Карачаево-Черкессия</h2>
-                            <button type="button" class="element__heart"></button>
+                            <button aria-label="Отметить сердечком" type="button" class="element__heart"></button>
                         </div>
                     </article>
                 </section>
@@ -73,11 +73,11 @@
         <div class="popup">
             <div class="popup__container">
                 <form action="" name="edit-profile" class="popup__form">
-                    <button type="button" class="popup__close"></button>
+                    <button aria-label="Закрыть окно редактирования профиля" type="button" class="popup__close"></button>
                     <h2 class="popup__form-title">Редактировать профиль</h2>
                     <input type="text" class="popup__form-input" name="name" value="Жак-Ив Кусто">
                     <input type="text" class="popup__form-input" name="description" value="Исследователь океана">
-                    <button type="submit" name="save" class="popup__form-submit">Сохранить</button>
+                    <button aria-label="Отправить форму" type="submit" name="save" class="popup__form-submit">Сохранить</button>
                 </form>
             </div>
         </div>
