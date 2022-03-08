@@ -3,6 +3,7 @@
     background-color: white;
     display: grid;
     position: relative;
+    height: 361px;
     grid-template-columns: 100%;
     grid-template-rows: 75% 25%;
 }
