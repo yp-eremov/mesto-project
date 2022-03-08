@@ -31,12 +31,12 @@
         </div>
         <div class="popup">
             <div class="popup__container">
-                <form name="edit-profile" class="popup__form">
+                <form name="edit-profile" id="edit-profile" class="popup__form">
                     <button aria-label="Закрыть окно редактирования профиля" type="button"
                             class="popup__close"></button>
                     <h2 class="popup__form-title">Редактировать профиль</h2>
-                    <input type="text" class="popup__form-input" id="profile-title" name="name">
-                    <input type="text" class="popup__form-input" id="profile-description" name="description">
+                    <input type="text" class="popup__form-input" id="profile-title" placeholder="Имя" name="name">
+                    <input type="text" class="popup__form-input" id="profile-description" placeholder="Профессиональная деятельность" name="description">
                     <button aria-label="Отправить форму" type="submit" name="save" class="popup__form-submit">
                         Сохранить
                     </button>
@@ -46,8 +46,8 @@
 
         <div class="popup" id="popup-add-card">
             <div class="popup__container">
-                <form name="add-card" class="popup__form">
-                    <button aria-label="Закрыть окно редактирования профиля" id="popup-add-close" type="button"
+                <form name="add-card" id="add-card" class="popup__form">
+                    <button aria-label="Закрыть окно добавления карточки" id="popup-add-close" type="button"
                             class="popup__close"></button>
                     <h2 class="popup__form-title">Новое место</h2>
                     <input type="text" class="popup__form-input" placeholder="Название" id="image-title"
