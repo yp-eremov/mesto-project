@@ -29,3 +29,8 @@
 @import "../blocks/element/__description/element__description.css";
 @import "../blocks/element/__heart/element__heart.css";
 @import "../blocks/element/__heart/_active/element__heart_active.css";
+@import "../blocks/element/__delete/element__delete.css";
+@import "../blocks/popup/__image-container/popup__image-container.css";
+@import "../blocks/popup/__image/popup__image.css";
+@import "../blocks/popup/__image-description/popup__image-description.css";
+@import "../blocks/popup/_image/popup_image.css";

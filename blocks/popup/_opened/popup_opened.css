@@ -4,4 +4,8 @@
     flex-direction: row;
     align-content: center;
     justify-content: center;
+
+    visibility: visible;
+    opacity: 1;
+
 }
